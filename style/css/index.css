@@ -811,3 +811,7 @@ a:focus {
 .pages ul li.thisclass a{color: #fff;}
 .pages ul li a{display:block;color:#999}
 .pages ul li a:hover{color: #fff;}
+
+#footer li{
+  width: 30%;
+}
