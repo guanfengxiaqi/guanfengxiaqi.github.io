@@ -1,84 +1,251 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="renderer" content="webkit" />
-  <meta name="force-rendering" content="webkit" />
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
-  <meta name="author" content="https://guanfengxiaqi.github.io/">
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="applicable-device" content="pc,mobile" />
-  <meta name="MobileOptimized" content="width" />
-  <meta name="HandheldFriendly" content="true" />
-  <meta name="Robots" content="all" />
-  <title>知行天书</title>
-  <meta name="keywords" content="知行天书">
-  <meta name="description" content="知行天书">
-  <link href="./style/css/index.css" rel="stylesheet">
+	<meta charset="UTF-8">
+	<title>知行天书</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/featherlight.min.css">
+	
+	<script src="js/jquery-latest.min.js"></script>
+	<script src="js/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
 </head>
-
 <body>
-  <div class="header">
-    <div id="nav" class="box">
-      <ul class="clearfix">
-        <li id="nav_1000" class='active'><a href="/" title="知行天书">知行天书</a></li>
+	<header id="top">
+		<div class="wrapper">			
+			<h1 class="logo"><a href="#">知行天书</a></h1>
+			<nav>
+				<ul id="navigation">
+					<li><a href="#home">首页</a></li>
+					<li><a href="#txt">小说</a></li>
+					<li><a href="#">资料</a></li>
+					<li><a href="#">休闲</a></li>
+					<li><a href="#">关于</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="banner"><a name="home"></a>
+		<div class="wrapper">
+			<div class="banner-content">
+				<span class="subtitle">您好!</span>
+				<h2>欢迎光临</h2>
+				<p>网站正在搭建中......热切期望您访问本网站后，告诉我关于本网站的改进建议</p>
+				<a href="#" class="button-1">请联系我</a>
+			</div>
+		</div>
+	</section>
+	
+	<section class="featured-articles-section"><a name="txt"></a>	
+		<div class="wrapper">
+			<h3>小说</h3>
+				<div class="cards-container">
+					<div class="article-card card-large" style="background-image: url('images/card-bg-1.jpg');">
+						<div class="article-card-content">
+							<span class="category">创作中...</span>
+							<h4>魔法复苏</h4>
+							<p>魔法势弱的年代，灵武师高高在上，且看主角如何走出前所未有的魔法崛起之路</p>
+						</div>
+					</div>
+					<div class="article-card card-small" style="background-image: url('images/card-bg-4.jpg');;">
+						<div class="article-card-content">
+							<span class="category">计划中...</span>
+							<h4>封魔禁天</h4>
+							<p><a href="#">敬请期待</a></p>
+						</div>
+					</div>
+					<div class="article-card article-card-alt card-small" style="background-image: url('images/card-bg-3.jpg');">
+						<div class="article-card-content">
+							<span class="category">计划中...</span>
+							<h4>神魔律</h4>
+							<p><a href="#">敬请期待</a></p>
+						</div>
+					</div>
+					<!-- <div class="article-card card-medium" style="background-image: url('images/card-bg-4.jpg');">
+						<div class="article-card-content">
+							<span class="category"></span>
+							<h4></h4>
+							<p></p>
+						</div>
+					</div>
+					<div class="article-card article-card-alt card-medium" style="background-image: url('images/card-bg-5.jpg');">
+						<div class="article-card-content">
+							<span class="category"></span>
+							<h4></h4>
+							<p></p>
+						</div> -->
+					</div>
+					
+					<!--
+					****Example using .article-group class to place small cards on left***
+					
+					<div class="article-group">
+						<div class="article-card card-small">...</div>
+						<div class="article-card card-small">...</div>
+					</div>
+					<div class="article-card card-large">...</div>
+					
+					-->
+					
+					<br class="clear" />
+				</div>
+		</div>
+	</section>
+		
+	<!-- <section class="full-width-section" style="background-image: url(images/full-width-bg.jpg);">	
+		<div class="wrapper">
+			<div class="text align-left">
+				<span class="subtitle">Full width</span>
+				<h2>Large Full Width Section Heading</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus feugiat mi, a tincidunt lectus egestas ut. Duis dignissim sapien, lectus eleifend sit amet. </p>
+				<a href="#" class="button-1">Continue Reading</a>
+			</div>
+			<div class="clear"></div>	
+		</div>
+	</section>
 
-        <li><a href="/魔法复苏/">魔法复苏</a></li>
-
-        <li><a href="/封魔禁天/">封魔禁天</a></li>
-
-        <li><a href="/神魔律/">神魔律</a></li>
-
-      </ul>
-    </div>
-  </div>
-  <div class="box">
-    <div class="cont">
-      <div class="infohd">
-        <div class="info_tab"> <span class="on"><a href="/mofafusu/" target="_blank">第一卷 学院风云</a></span> <b
-            class="line"></b> </div>
-      </div>
-      <div class="index_list clearfix">
-        <ul class="clearfix">
-          <li><span>2023-03-06</span><a href="./mofafusu/1.html" target="_blank">第一章 魔法测试</a></li>
-          <li><span>2023-03-07</span><a href="./mofafusu/2.html" target="_blank">第二章 蓝血基地</a></li>
-          <li><span>2023-03-08</span><a href="./mofafusu/3.html" target="_blank">第三章 元素特性</a></li>
-          <li><span>2023-03-09</span><a href="./mofafusu/4.html" target="_blank">第四章 天命武脉</a></li>
-          <li><span>2023-03-10</span><a href="./mofafusu/5.html" target="_blank">第五章 武灵力</a></li>
-          <li><span>2023-03-11</span><a href="./mofafusu/6.html" target="_blank">第六章 基地异变</a></li>
-          <li><span>2023-03-12</span><a href="./mofafusu/7.html" target="_blank">第七章 自然元素</a></li>
-          <li><span>2023-03-13</span><a href="./mofafusu/8.html" target="_blank">第八章 逃脱</a></li>
-          <li><span>2023-03-14</span><a href="./mofafusu/9.html" target="_blank">第九章 青月学院</a></li>
-          <li><span>2023-03-15</span><a href="./mofafusu/10.html" target="_blank">第十章 基础魔法</a></li>
-
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="box">
-    <div class="cont">
-      <div class="infohd">
-        <div class="info_tab"> <span class="on"><a href="/jishu/" target="_blank">第二卷</a></span> <b class="line"></b>
-        </div>
-      </div>
-      <div class="index_list clearfix">
-        <ul class="clearfix">
-
-        </ul>
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="box">
-        <p><a href="https://guanfengxiaqi.github.io/">知行天书</a><a href="/mofafusu/">魔法复苏</a><a
-            href="/fengmojintian/">封魔禁天</a><a href="/shenmolv/">神魔律</a></p>
-        <p>本网内容均属于知行天书，转载就注明出处。 </p>
-        <p>Copyright &copy; 2023-2090 观风下棋 版权所有 <a href=https://guanfengxiaqi.github.io/ target='_blank'></p>
-      </div>
-    </div>
+	<section class="services-section"><a name="services"></a>
+		<div class="wrapper">
+			<ul class="services-list">
+				<li>
+					<span class="subtitle">About Us</span>
+					<h4>Meet the team</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					<a href="#" class="small-button">More</a>
+				</li>
+				<li>
+					<span class="subtitle">Portfolio</span>
+					<h4>See our work</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					<a href="#" class="small-button">More</a>
+				</li>
+				<li class="emphasis">
+					<span class="subtitle">Contact</span>
+					<h4>Work with us</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+					<a href="#" class="small-button">More</a>
+				</li>
+				<div class="clear"></div>	
+			</ul>
+		</div>
+	</section>
+	
+	<section class="masonry-section"><a name="portfolio"></a>
+		<h3>Latest Articles</h3>
+			<div class="wrapper">
+				<div class="masonry">
+					<div class="item">
+						<img src="images/article-image-1.jpg" alt="" class="article-image">
+						<div class="summary">
+							<h4>Article Title</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum rhoncus hendrerit. Cras molestie tristique tempor.</p>
+							<span class="category">Category - Aug 1, 2016</span>
+						</div>
+					</div>
+					<div class="item advert-item">
+						<img src="images/advert.jpg" alt="" class="advert">
+					</div>
+					<div class="item">
+						<img src="images/article-image-2.jpg" alt="" class="article-image">
+						<div class="summary">
+							<h4>Article Title</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum rhoncus hendrerit. Cras molestie tristique tempor.</p>
+							<span class="category">Category - Aug 1, 2016</span>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/article-image-3.jpg" alt="" class="article-image">
+						<div class="summary">
+							<h4>Article Title</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum rhoncus hendrerit. Cras molestie tristique tempor.</p>
+							<span class="category">Category - Aug 1, 2016</span>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/article-image-4.jpg" alt="" class="article-image">
+						<div class="summary">
+							<h4>Article Title</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum rhoncus hendrerit. Cras molestie tristique tempor.</p>
+							<span class="category">Category - Aug 1, 2016</span>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/article-image-5.jpg" alt="" class="article-image">
+						<div class="summary">
+							<h4>Article Title</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum rhoncus hendrerit. Cras molestie tristique tempor.</p>
+							<span class="category">Category - Aug 1, 2016</span>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/article-image-6.jpg" alt="" class="article-image">
+						<div class="summary">
+							<h4>Article Title</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum rhoncus hendrerit. Cras molestie tristique tempor.</p>
+							<span class="category">Category - Aug 1, 2016</span>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/article-image-7.jpg" alt="" class="article-image">
+						<div class="summary">
+							<h4>Article Title</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum rhoncus hendrerit. Cras molestie tristique tempor.</p>
+							<span class="category">Category - Aug 1, 2016</span>
+						</div>
+					</div>
+					<div class="item">
+						<img src="images/article-image-8.jpg" alt="" class="article-image">
+						<div class="summary">
+							<h4>Article Title</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce rutrum rhoncus hendrerit. Cras molestie tristique tempor.</p>
+							<span class="category">Category - Aug 1, 2016</span>
+						</div>
+					</div>
+					
+					
+				</div>
+			<div class="clear"></div>	
+	</section>
+		
+	<section class="instagram-section"><a name="portfolio"></a>
+		<h3>Instagram</h3>
+		<ul class="instagram-list"> 
+			<li class="item">
+				<a href="images/instagram-1.jpg" data-featherlight="images/instagram-1.jpg" class="photo-overlay">
+					<img src="images/instagram-1.jpg" alt="" />
+				</a>
+			</li> 
+			<li class="item">
+				<a href="images/instagram-2.jpg" data-featherlight="images/instagram-2.jpg" class="photo-overlay">
+					<img src="images/instagram-2.jpg" alt="" />
+				</a>
+			</li> 
+			<li class="item">
+				<a href="images/instagram-3.jpg" data-featherlight="images/instagram-3.jpg" class="photo-overlay">
+					<img src="images/instagram-3.jpg" alt="" />
+				</a>
+			</li> 
+			<li class="item">
+				<a href="images/instagram-4.jpg" data-featherlight="images/instagram-4.jpg" class="photo-overlay">
+					<img src="images/instagram-4.jpg" alt="" />
+				</a>
+			</li> 
+			<div class="clear"></div>	
+		</ul>
+	</section>	 -->
+	
+	<footer>
+		<div class="wrapper">
+			<div class="footer-left">
+				<p class="copyright">Copyright &copy; 2023.观风下棋</p>
+			</div>
+			<!-- <div class="footer-right">
+				<p class="footer-links"><a href="#">Privacy Policy</a> I <a href="#">Terms &amp; Conditions</a></p>
+			</div> -->
+			<div class="clear"></div>
+		</div>
+	</footer>
 </body>
-
 </html>

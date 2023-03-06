@@ -441,6 +441,7 @@ a:focus {
     zoom: 1;
     overflow: hidden;
     margin: 20px auto 0;
+    font-family:'Microsoft YaHei',PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light',sans-serif;
 }
 
 .content p {
